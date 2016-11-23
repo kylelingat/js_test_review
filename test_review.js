@@ -44,7 +44,7 @@ function epicBattle(wizard,enemy,power){
   if (power < 15) {
   console.log('Our ' + wizard + " has fallen!"); 
 }
-  else if (power >= 16 ) {
+  else if (power >= 16 && power <= 40 ) {
     console.log(wizard + " has almost slain the " + enemy + "." );
   }
   else {
